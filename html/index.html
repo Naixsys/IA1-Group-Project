@@ -1,22 +1,120 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <title>JA|Welcome to the Land of Adventure</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+    </style>
   </head>
   <body>
-    <div class="navi">
-      <nav>
-        <table>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+    <p>
+<div class="logo">
+		<a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+</div><br /><br /><br />
+<div class="nav">
+<ul>
+	<li><a href="ocho_rios.html">Ocho Rios</a></li>
+	<li><a href="mobay.html">Montego Bay</a></li>
+	<li><a href="negril.html">Negril</a></li>
+	<li><a href="kingston.html">Kingston</a></li>
+</ul>
+</div>
+</p>
+<p>
+<div class="carousel-wrapper">
+  <span id="item-1"></span>
+  <span id="item-2"></span>
+  <span id="item-3"></span>
+  <div class="carousel-item item-1">
+    <h2 class="carhead">Beaches</h2>
+    <p class="carsub">World class beaches where you can relax and soak up the sun rays. </p>
+    <a class="arrow arrow-prev" href="#item-3"></a>
+    <a class="arrow arrow-next" href="#item-2"></a>
+  </div>
+  
+  <div class="carousel-item item-2">
+    <h2 class="carhead">Rivers</h2>
+    <p class="carsub">Gorgeous Rivers </p>
+    <a class="arrow arrow-prev" href="#item-1"></a>
+    <a class="arrow arrow-next" href="#item-3"></a>
+  </div>
+  
+  <div class="carousel-item item-3">
+    <h2 class="carhead">Caves</h2>
+    <p class="carsub">Breathtaking natural caves</p>
+    <a class="arrow arrow-prev" href="#item-2"></a>
+    <a class="arrow arrow-next" href="#item-1"></a>
+  </div>
+</div>
+</p>
+<p>
+<hr witdh="100%" size="5px" color="blue">
+<b>
+<div class="gallery">
+   <a target="_blank" href="images/riu.jpeg">
+    <img src="images/riu.jpeg" alt="Resorts" width="300" height="200">
+  </a>
+  <div class="desc">Resorts</div>
+  </div>
+
+<div class="gallery">
+  <a target="_blank" href="images/city_night.jpg">
+    <img src="images/city_night.jpg" alt="night" width="300" height="200">
+  </a>
+  <div class="desc"><b>Night Life</b></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/food.jpg">
+    <img src="images/food.jpg" alt="Food" width="300" height="200">
+  </a>
+  <div class="desc">Fine Dining</div>
+</div>
+ 
+<div class="gallery">
+  <a target="_blank" href="images/colbeck.jpg">
+    <img src="images/colbeck.jpg" alt="Colbeck Castle" width="300" height="200">
+  </a>
+  <div class="desc">Historical Sites</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/rafting.jpg">
+    <img src="images/rafting.jpg" alt="Rafting" width="300" height="200">
+  </a>
+  <div class="desc">Fun Tours</div>
+</div>
+  
+<div class="gallery">
+  <a target="_blank" href="images/sabina.jpg">
+    <img src="images/sabina.jpg" alt="Sabina Park" width="300" height="200">
+  </a>
+  <div class="desc">Sporting Events</div>
+</div>
+</b>
+<div>
+</div>
+</p>
  <!--Add in some images, the table SHOULD HOPEFULLY allow us to not have to manually arrange the images-->            
-          </tr>
-        </table>
-      </nav>
-    </div>
   </body>
 </html>
