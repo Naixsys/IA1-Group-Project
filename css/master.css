@@ -1,12 +1,33 @@
 body {
-  background-color: #000000;}
+  background-color: #ffffff;}
 .main_content {
   border-width: medium;
   border-color: #dddddd;
   background-color: #ffffff;
-  float: left;
+  margin-left: 170px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+/*Navigation sidebar rules*/
+.sidenav {
+  height: 100%; 
+  width: 170px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+/*****************/
 /* For the attractions seciton of the page*/
 #attractions {
   border-width: medium;
@@ -18,3 +39,4 @@ body {
   border-width: thin;
   border-color: #330144;
 }
+/*********************/
