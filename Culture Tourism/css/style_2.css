@@ -1,0 +1,306 @@
+
+/* Body ---------------------------------------------------------------------- */
+
+body {
+	font-family: arial, verdana, lucida, console;
+}
+
+.body_container {
+	padding: padding: 0px;
+}
+
+@media screen and (min-width: 1520px) {
+  .body_container {padding: 0px 200px 0px 200px;}
+}
+
+.top_bar {
+	border-radius: 50px;
+	height: 20px;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.top_left {
+	background-color: #000000;
+	width: 30%;
+	height: 20px;
+	float: left;
+}
+
+.top_mid {
+	background-color: #FED100;
+	width: 40%;
+	height: 20px;
+	float: left;
+}
+
+.top_right {
+	background-color: #009B3A;
+	width: 30%;
+	height: 20px;
+	float: right
+}
+
+.headder{
+	color: white;
+	background-image: url("../img/19-230318.jpg");
+	background-color: #59DB5A;
+	height: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Navigation section ---------------------------------------------------------------------- */
+
+.nav_container {
+	height: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logo {
+	float: left;
+	height: 50px;
+}
+
+.logo img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.nav_links {
+	float: right;
+	display: inline;
+	font-size: 20px;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.navbar li  {
+	display: inline-block;
+}
+
+.navbar li a {
+	display: block;
+	text-align: center;
+	padding: 13px 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: #FED100;
+	color: #fff;
+	color: #000000;
+}
+
+.navbar a.active {
+	background-color: #009B3A;
+	color: #fff;
+}
+
+/* home page ---------------------------------------------------------------------- */
+
+.home_second_elements {
+	max-width: 100%;
+	max-height: 100%;
+	float: center;
+	clear: both;
+	background-color: white;
+}
+
+.jumbotron {
+	background-image: url("../img/IMG69.jpg");
+	background-color: #009B3A;
+	overflow: hidden;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50px;
+}
+
+.jumbotron_copy {
+	position: absolute;
+	float: center;
+	max-width: 100%;
+	color: white;
+	font-size: 40px;
+	padding: 100px 60px;
+}
+
+@media screen and (min-width: 1035px) {
+  .jumbotron_copy {
+	position: absolute;
+	float: right;
+	max-width: 20%;
+	color: white;
+	font-size: 40px;
+	padding: 100px 60px;
+  }
+}
+
+.bold {
+	text-transform: uppercase;
+	color: #ff0000 ;
+	text-decoration: underline;
+	font-size: 40px;
+}
+
+.culture_copy {
+	float: left;
+	padding: 0px 50px 0px 50px:
+	width: 100%;
+}
+
+@media screen and (min-width: 1035px) {
+	.culture_copy {
+		float: left;
+		width: 60%;
+	}
+}
+
+.home_cta{
+	max-width: 100%;
+	height: 100px;
+}
+
+@media screen and (min-width: 1035px){
+	.home_cta{
+		float: right;
+		width: 40%;
+		height: 100px;
+		padding: 30px 0px 10px 0px;
+	}
+}
+
+.cta_button {
+	max-width: 100%;
+	border-radius: 50px;
+	background-color: #009B3A;
+	border: none;
+	color: white;
+	padding: 15px 100px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1035px) {
+	.cta_button {
+		float: right;
+		border-radius: 50px;
+		background-color: #009B3A;
+		border: none;
+		color: white;
+		padding: 15px 100px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin: 4px 2px;
+		font-size: 20px;
+		cursor: pointer;
+	}
+}
+
+.cta_button a:hover {
+	background-color: #8F4F6F;
+	color: #fff;
+}
+
+.home_pic_container {
+	max-height: 100%;
+	padding: 0px;
+	clear: both;
+}
+
+.home_pic_1 {
+	width: 100%;
+	max-height: 100%;
+}
+
+@media screen and (min-width: 1035px){
+	.home_pic_1 {
+		width: 30%;
+		max-height: 100%;
+		float: left;
+		display: inline;
+		overflow: hidden;
+	}
+}
+
+.home_pic_2 {
+	width: 100%;
+	max-height: 100%;
+}
+
+@media screen and (min-width: 1035px){
+	.home_pic_2 {
+		width: 40%;
+		max-height: 100%;
+		float: left;
+		display: inline;
+		overflow: hidden;
+	}
+}
+
+.home_pic_3 {
+	width: 100%;
+	max-height: 100%;
+}
+
+@media screen and (min-width: 1035px){
+	.home_pic_3 {
+		width: 30%;
+		max-height: 100%;
+		float: left;
+		display: inline;
+		overflow: hidden;
+	}
+}
+
+.home_pic_1 img {
+	heigh: 100%;
+	padding: 5px;
+	max-width: 100%;
+}
+
+.home_pic_2 img {
+	heigh: 100%;
+	padding: 5px;
+	max-width: 100%;
+}
+
+.home_pic_3 img {
+	heigh: 100%;
+	padding: 5px;
+	max-width: 100%;
+}
+
+.pic_cap {
+	padding: 5px;
+}
+
+/* footer section ---------------------------------------------------------------------- */
+
+.footer_container{
+	max-height: 100%;
+	max-width: 100%;
+	clear: both;
+}
+
+/* Clear fixed ---------------------------------------------------------------------- */
+
+.clearfix {
+	content: "";
+	clear: both;
+	display: table;
+}
