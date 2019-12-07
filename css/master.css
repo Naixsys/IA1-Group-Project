@@ -8,7 +8,9 @@ main,footer {
   padding: 0px 10px;
 }
 
-
+h3 {
+  color: #dddddd;
+}
 
 /*Navigation sidebar rules*/
 header {
@@ -26,7 +28,7 @@ header {
 header a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 23px;
   color: #818181;
   display: block;
 }
@@ -37,17 +39,29 @@ header a:hover {
 /*****************/
 /* For the attractions seciton of the page*/
 
+#attractions p, #attractions li{
+  font-size: 20px;
+}
 #attractions img {
-  padding-top: 20px;
+  padding-top: 27px;
   padding-bottom: 10px;
-  flex: 1;
+  padding-right: 10px;
+  padding-left: 10px;
+  flex: auto;
   background-color: green;
 }
 
+#attractions ul {
+  background-color: gold;
+}
+
 #attractions p{
-  border: #00c800;
-  border-width: thick;
   background:gold;
-  font-size: 20px;
 }
 /*********************/
+
+/*footer style rules*/
+
+footer p {
+  color: #ffffff;
+}
